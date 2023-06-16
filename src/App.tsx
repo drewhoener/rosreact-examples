@@ -1,11 +1,9 @@
-import './App.css'
-import {TopicChangeWithUserInput} from "./examples/TopicChangeWithUserInput";
+import './App.css';
+
+import { TopicChangeWithUserInput } from './examples/TopicChangeWithUserInput';
 
 function App() {
-
-    return (
-        <TopicChangeWithUserInput/>
-    )
+  return <TopicChangeWithUserInput />;
 }
 
 export default App;
