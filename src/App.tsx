@@ -1,9 +1,9 @@
 import './App.css';
 
-import { TopicChangeWithUserInput } from './examples/TopicChangeWithUserInput';
+import {PublisherWithAutoRepeat} from "./examples/PublisherWithAutoRepeat.tsx";
 
 function App() {
-  return <TopicChangeWithUserInput />;
+  return <PublisherWithAutoRepeat />;
 }
 
 export default App;
